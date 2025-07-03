@@ -1,0 +1,9 @@
+0x6c5cec8 4
+0x6c5cecc 1
+ÈÎÅÈÎÅÈÎÅÈÎÅÌÎÅ
+
+0x41414141 4
+0x1cd804e8 1
+
+
+./col $(python3 -c "import sys; sys.stdout.buffer.write(b'\x41\x41\x41\x41\x41\x41\x41\x41\x41\x41\x41\x41\x41\x41\x41\x41\xE8\x04\xD8\x1C')")
